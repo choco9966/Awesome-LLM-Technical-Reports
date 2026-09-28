@@ -2,9 +2,11 @@
 
 ![Reports](https://img.shields.io/badge/reports-168-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🖼️).
+A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 👁️).
 
 > This list grew out of the [Pseudo-Lab LLM Technical Report Study](https://github.com/Pseudo-Lab/llm-technical-report-study) and is maintained as a companion to an upcoming survey on LLM technical reports.
+
+**Legend**: 👁️ vision input (multimodal) · (PDF) official PDF, not on arXiv
 
 ## Inclusion Criteria
 
@@ -46,8 +48,8 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | --- | --- | --- |
 | 2026-09-23 | Hunyuan-A13B | [Hunyuan-A13B Technical Report](https://arxiv.org/abs/2609.27284) |
 | 2026-09-17 | DeepSeek-V4.1-Flash | [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](https://arxiv.org/abs/2609.19969) |
-| 2026-07-27 | Kimi K3 🖼️ | [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) |
-| 2026-07-02 | Gemma 4 🖼️ | [Gemma 4 Technical Report](https://arxiv.org/abs/2607.02770) |
+| 2026-07-27 | Kimi K3 👁️ | [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) |
+| 2026-07-02 | Gemma 4 👁️ | [Gemma 4 Technical Report](https://arxiv.org/abs/2607.02770) |
 | 2026-06-13 | Ling / Ring 2.6 | [Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale](https://arxiv.org/abs/2606.15079) |
 | 2026-05-26 | MiniMax-M2 Series | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence](https://arxiv.org/abs/2605.26494) |
 | 2026-04-26 | DeepSeek-V4 | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/2606.19348) |
@@ -65,7 +67,7 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2025-08-08 | GLM-4.5 | [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) |
 | 2025-07-28 | Kimi K2 | [Kimi K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) |
 | 2025-07-24 | TeleChat2 / 2.5 / T1 | [Technical Report of TeleChat2, TeleChat2.5 and T1](https://arxiv.org/abs/2507.18013) |
-| 2025-07-07 | Gemini 2.5 🖼️ | [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261) |
+| 2025-07-07 | Gemini 2.5 👁️ | [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261) |
 | 2025-06-06 | dots.llm1 | [dots.llm1 Technical Report](https://arxiv.org/abs/2506.05767) |
 | 2025-05-14 | Qwen3 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
 | 2025-05-07 | Pangu Ultra MoE | [Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs](https://arxiv.org/abs/2505.04519) |
@@ -105,7 +107,7 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2023-09-19 | Baichuan 2 | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
 | 2023-07-18 | Llama 2 | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
 | 2023-05-17 | PaLM 2 | [PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403) |
-| 2023-03-15 | GPT-4 🖼️ | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) |
+| 2023-03-15 | GPT-4 👁️ | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) |
 | 2023-02-27 | LLaMA | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) |
 
 ### 2020–2022
@@ -175,7 +177,7 @@ Models specialized for mathematical reasoning, formal verification, or scientifi
 | Date | Model | Report |
 | --- | --- | --- |
 | 2025-11-27 | DeepSeekMath-V2 | [DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning](https://arxiv.org/abs/2511.22570) |
-| 2025-08-21 | Intern-S1 🖼️ | [Intern-S1: A Scientific Multimodal Foundation Model](https://arxiv.org/abs/2508.15763) |
+| 2025-08-21 | Intern-S1 👁️ | [Intern-S1: A Scientific Multimodal Foundation Model](https://arxiv.org/abs/2508.15763) |
 | 2024-09-18 | Qwen2.5-Math | [Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement](https://arxiv.org/abs/2409.12122) |
 | 2024-02-05 | DeepSeekMath | [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) |
 | 2022-11-16 | Galactica | [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085) |
@@ -191,7 +193,7 @@ Models whose report centers on a specific language, region, or multilingual cove
 | 2026-08-10 | Motif 3 | [Motif 3: Technical Report](https://arxiv.org/abs/2608.09119) |
 | 2026-08-05 | K-EXAONE 2.0 | [K-EXAONE 2.0 Technical Report](https://arxiv.org/abs/2608.04505) |
 | 2026-07-22 | Solar Open 2 | [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) |
-| 2026-04-09 | EXAONE 4.5 🖼️ | [EXAONE 4.5 Technical Report](https://arxiv.org/abs/2604.08644) |
+| 2026-04-09 | EXAONE 4.5 👁️ | [EXAONE 4.5 Technical Report](https://arxiv.org/abs/2604.08644) |
 | 2026-01-14 | A.X K1 | [A.X K1 Technical Report](https://arxiv.org/abs/2601.09200) |
 | 2026-01-11 | Solar Open | [Solar Open Technical Report](https://arxiv.org/abs/2601.07022) |
 | 2026-01-05 | K-EXAONE | [K-EXAONE Technical Report](https://arxiv.org/abs/2601.01739) |
@@ -249,7 +251,7 @@ Models designed around a small parameter budget or on-device deployment.
 | --- | --- | --- |
 | 2026-01-13 | Ministral 3 | [Ministral 3](https://arxiv.org/abs/2601.08584) |
 | 2025-11-28 | LFM2 | [LFM2 Technical Report](https://arxiv.org/abs/2511.23404) |
-| 2025-07-17 | Apple Foundation Models 2025 🖼️ | [Apple Intelligence Foundation Language Models: Tech Report 2025](https://arxiv.org/abs/2507.13575) |
+| 2025-07-17 | Apple Foundation Models 2025 👁️ | [Apple Intelligence Foundation Language Models: Tech Report 2025](https://arxiv.org/abs/2507.13575) |
 | 2025-06-09 | MiniCPM4 | [MiniCPM4: Ultra-Efficient LLMs on End Devices](https://arxiv.org/abs/2506.07900) |
 | 2025-02-04 | SmolLM2 | [SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model](https://arxiv.org/abs/2502.02737) |
 | 2024-12-23 | YuLan-Mini | [YuLan-Mini: An Open Data-efficient Language Model](https://arxiv.org/abs/2412.17743) |
@@ -287,7 +289,7 @@ Models released together with training data, code, and intermediate checkpoints.
 | --- | --- | --- |
 | 2025-12-15 | Olmo 3 | [Olmo 3](https://arxiv.org/abs/2512.13961) |
 | 2024-12-31 | OLMo 2 | [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656) |
-| 2024-12-08 | Moxin-7B 🖼️ | [7B Fully Open Source Moxin-LLM/VLM -- From Pretraining to GRPO-based Reinforcement Learning Enhancement](https://arxiv.org/abs/2412.06845) |
+| 2024-12-08 | Moxin-7B 👁️ | [7B Fully Open Source Moxin-LLM/VLM -- From Pretraining to GRPO-based Reinforcement Learning Enhancement](https://arxiv.org/abs/2412.06845) |
 | 2024-11-22 | Tülu 3 | [Tulu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/abs/2411.15124) |
 | 2024-09-03 | OLMoE | [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) |
 | 2024-02-01 | OLMo | [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838) |
