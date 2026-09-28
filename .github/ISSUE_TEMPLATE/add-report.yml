@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        One report per issue. Blog posts, model cards, and slides alone are not accepted.
+        One report per issue. Prefer arXiv; an official PDF or an official blog/docs page from the model developer is accepted when no paper exists. Third-party posts and news articles are not accepted.
   - type: input
     id: report-name
     attributes:
@@ -18,7 +18,7 @@ body:
     id: source
     attributes:
       label: Source link
-      description: arXiv abs link preferred; otherwise an official paper PDF from the authors/organization.
+      description: arXiv abs link preferred; otherwise an official PDF, or an official blog/docs page from the developer.
       placeholder: https://arxiv.org/abs/2505.09388
     validations:
       required: true

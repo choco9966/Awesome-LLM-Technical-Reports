@@ -6,14 +6,13 @@ A curated list of **technical reports for large language models** — the docume
 
 > This list grew out of the [Pseudo-Lab LLM Technical Report Study](https://github.com/Pseudo-Lab/llm-technical-report-study) and is maintained as a companion to an upcoming survey on LLM technical reports.
 
-**Legend**: 🧩 multimodal (vision input) · 🔓 fully open (weights + training data + code) · (PDF) official PDF, not on arXiv · (Blog) no paper yet; see [Fully Open LLMs](#fully-open-llms)
+**Legend**: 🧩 multimodal (vision input) · 🔓 fully open (weights + training data + code) · 📄 official PDF (not on arXiv) · 📝 blog / docs (no paper yet)
 
 ## Inclusion Criteria
 
-- **Source**: an arXiv preprint, or an independent paper PDF published by the authors/organization. Blog posts, model cards, and slides alone are not included.
+- **Source**: an arXiv preprint (preferred), an official paper PDF (📄), or an official blog / documentation page from the model developer (📝) when no paper exists yet. Third-party posts and news articles are not included.
 - **Scope**: reports about a specific model or model family (not surveys, benchmarks, or third-party analyses).
-- **Date**: the first arXiv submission date (v1). PDF-only reports show `—`.
-- **Exception**: in [Fully Open LLMs](#fully-open-llms), projects without a paper are listed when weights, data, and code are public and documented (marked (Blog)).
+- **Date**: the first arXiv submission date (v1), or the publication date of the PDF / blog. Unknown dates show `—`.
 - **Placement**: each report appears once, in its primary category. Within a section, entries are newest first.
 
 ## Contents
@@ -74,8 +73,8 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2025-05-07 | Pangu Ultra MoE | [Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs](https://arxiv.org/abs/2505.04519) |
 | 2025-04-01 | Command A | [Command A: An Enterprise-Ready Large Language Model](https://arxiv.org/abs/2504.00698) |
 | 2025-03-25 | Gemma 3 | [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) |
-| — | ERNIE 4.5 | [ERNIE 4.5 Technical Report](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) (PDF) |
-| — | MiMo-V2.6 | [MiMo-V2.6 Technical Report](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf) (PDF) |
+| — | ERNIE 4.5 📄 | [ERNIE 4.5 Technical Report](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) |
+| — | MiMo-V2.6 📄 | [MiMo-V2.6 Technical Report](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf) |
 
 ### 2023–2024
 
@@ -284,15 +283,15 @@ Reports whose main contribution is an alternative architecture: hybrid SSM, line
 
 ## Fully Open LLMs
 
-Models released together with training data, code, and intermediate checkpoints. Because the artifacts themselves are open, this section also lists fully open projects that document their work in blogs, docs, or live training logs before (or instead of) a paper.
+Models released together with training data, code, and intermediate checkpoints.
 
 | Date | Model | Report |
 | --- | --- | --- |
-| 2026-08-21 | Marin 535B-A23B | [Marin 535B-A23B started training (live, open training run)](https://x.com/percyliang/status/2090918065634684997) (Blog) |
+| 2026-08-21 | Marin 535B-A23B 📝 | [Marin 535B-A23B started training (live, open training run)](https://x.com/percyliang/status/2090918065634684997) |
 | 2025-12-15 | Olmo 3 | [Olmo 3](https://arxiv.org/abs/2512.13961) |
-| 2025-12 | Marin 32B | [Marin 32B Retrospective](https://github.com/marin-community/marin/blob/main/docs/reports/marin-32b-retro.md) (Blog) |
-| 2025-07-08 | SmolLM3 | [SmolLM3: smol, multilingual, long-context reasoner](https://huggingface.co/blog/smollm3) (Blog) |
-| 2025-05-19 | Marin 8B | [Marin: An Open Lab for Building Foundation Models](https://marin.community/blog/2025/05/19/announcement/) (Blog) |
+| 2025-12 | Marin 32B 📝 | [Marin 32B Retrospective](https://github.com/marin-community/marin/blob/main/docs/reports/marin-32b-retro.md) |
+| 2025-07-08 | SmolLM3 📝 | [SmolLM3: smol, multilingual, long-context reasoner](https://huggingface.co/blog/smollm3) |
+| 2025-05-19 | Marin 8B 📝 | [Marin: An Open Lab for Building Foundation Models](https://marin.community/blog/2025/05/19/announcement/) |
 | 2024-12-31 | OLMo 2 | [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656) |
 | 2024-12-08 | Moxin-7B 🧩 | [7B Fully Open Source Moxin-LLM/VLM -- From Pretraining to GRPO-based Reinforcement Learning Enhancement](https://arxiv.org/abs/2412.06845) |
 | 2024-11-22 | Tülu 3 | [Tulu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/abs/2411.15124) |
