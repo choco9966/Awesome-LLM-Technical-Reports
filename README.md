@@ -15,14 +15,32 @@ A curated list of **technical reports for large language models** — the docume
 - **Date**: the first arXiv submission date (v1), or the publication date of the PDF / blog. Unknown dates show `—`.
 - **Placement**: each report appears once, in its primary category. Within a section, entries are newest first.
 
+## How Categories Are Assigned
+
+Each report is placed by **what its own abstract says it was designed for**, not by parameter count or by who built it.
+
+| Category | Placed here when the report... |
+| --- | --- |
+| Language- & Region-Specific | centers on one language or region (e.g., Korean, European, Japanese) or on broad multilingual coverage. English–Chinese bilingual foundation models (e.g., Qwen, Baichuan 2, Skywork) are treated as General-Purpose |
+| Code | targets code generation, infilling, or software-engineering agents |
+| Math & Science | targets mathematical reasoning, formal verification, or scientific knowledge |
+| Reasoning-Centric | has reasoning post-training (long CoT, RL with verifiable rewards, thinking modes) as its main contribution |
+| Small & On-Device | states small-footprint or on-device / resource-constrained deployment as a design goal |
+| Architecture Exploration | has an alternative architecture (hybrid SSM, linear attention, diffusion, adaptive depth) as its main contribution |
+| Fully Open | releases weights **and** training data **and** code as a central goal |
+| General-Purpose | is a broad-capability foundation model that fits none of the above |
+
+**If a report fits several categories**, the first matching row in the table above wins. Secondary traits are shown as tags instead: 🧩 multimodal, 🔓 fully open (outside the Fully Open section).
+
 ## Contents
 
+- [How Categories Are Assigned](#how-categories-are-assigned)
 - [General-Purpose LLMs](#general-purpose-llms) (69)
   - [2025–2026](#20252026) (29)
   - [2023–2024](#20232024) (29)
   - [2020–2022](#20202022) (11)
 - [Reasoning-Centric LLMs](#reasoning-centric-llms) (14)
-- [Code LLMs](#code-llms) (16)
+- [Code LLMs](#code-llms) (18)
 - [Math & Science LLMs](#math--science-llms) (5)
 - [Language- & Region-Specific LLMs](#language---region-specific-llms) (32)
   - [🇰🇷 Korean](#-korean) (11)
@@ -30,8 +48,8 @@ A curated list of **technical reports for large language models** — the docume
   - [🇪🇺 European](#-european) (5)
   - [🇨🇳 Chinese (early large-scale)](#-chinese-early-large-scale) (8)
   - [🌐 Multilingual](#-multilingual) (7)
-- [Small & On-Device LLMs](#small--on-device-llms) (13)
-- [Architecture Exploration](#architecture-exploration) (11)
+- [Small & On-Device LLMs](#small--on-device-llms) (12)
+- [Architecture Exploration](#architecture-exploration) (10)
 - [Fully Open LLMs](#fully-open-llms) (11)
 - [Related: Training Methods](#related-training-methods) (1)
 - [Surveys](#surveys)
@@ -160,10 +178,12 @@ Models specialized for code generation, infilling, and software-engineering agen
 | 2026-02-28 | Qwen3-Coder-Next | [Qwen3-Coder-Next Technical Report](https://arxiv.org/abs/2603.00729) |
 | 2025-10-21 | KAT-Coder | [KAT-Coder Technical Report](https://arxiv.org/abs/2510.18779) |
 | 2025-08-08 | Devstral | [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) |
+| 2025-06-17 | Mercury Coder | [Mercury: Ultra-Fast Language Models Based on Diffusion](https://arxiv.org/abs/2506.17298) |
 | 2024-09-18 | Qwen2.5-Coder | [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186) |
 | 2024-06-17 | DeepSeek-Coder-V2 | [DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence](https://arxiv.org/abs/2406.11931) |
 | 2024-01-25 | DeepSeek-Coder | [DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence](https://arxiv.org/abs/2401.14196) |
 | 2023-08-24 | Code Llama | [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950) |
+| 2023-06-20 | phi-1 | [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) |
 | 2023-05-09 | StarCoder | [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) |
 | 2023-05-03 | CodeGen2 | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) |
 | 2022-04-12 | InCoder | [InCoder: A Generative Model for Code Infilling and Synthesis](https://arxiv.org/abs/2204.05999) |
@@ -245,7 +265,7 @@ Models whose report centers on a specific language, region, or multilingual cove
 
 ## Small & On-Device LLMs
 
-Models designed around a small parameter budget or on-device deployment.
+Reports that explicitly state small-footprint or on-device / resource-constrained deployment as a design goal. Placement follows that stated goal, not a parameter cutoff (e.g., Ministral 3 at 3B–14B is here because its report targets compute- and memory-constrained use, while Phi-4 at 14B is General-Purpose).
 
 | Date | Model | Report |
 | --- | --- | --- |
@@ -261,7 +281,6 @@ Models designed around a small parameter budget or on-device deployment.
 | 2024-04-09 | MiniCPM | [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395) |
 | 2024-01-04 | TinyLlama | [TinyLlama: An Open-Source Small Language Model](https://arxiv.org/abs/2401.02385) |
 | 2023-09-11 | phi-1.5 | [Textbooks Are All You Need II: phi-1.5 technical report](https://arxiv.org/abs/2309.05463) |
-| 2023-06-20 | phi-1 | [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) |
 
 ## Architecture Exploration
 
@@ -274,7 +293,6 @@ Reports whose main contribution is an alternative architecture: hybrid SSM, line
 | 2025-10-30 | Kimi Linear | [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/abs/2510.26692) |
 | 2025-10-22 | Ring-linear | [Every Attention Matters: An Efficient Hybrid Architecture for Long-Context Reasoning](https://arxiv.org/abs/2510.19338) |
 | 2025-07-30 | Falcon-H1 | [Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance](https://arxiv.org/abs/2507.22448) |
-| 2025-06-17 | Mercury | [Mercury: Ultra-Fast Language Models Based on Diffusion](https://arxiv.org/abs/2506.17298) |
 | 2025-05-21 | Hunyuan-TurboS | [Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought](https://arxiv.org/abs/2505.15431) |
 | 2025-03-18 | RWKV-7 | [RWKV-7 "Goose" with Expressive Dynamic State Evolution](https://arxiv.org/abs/2503.14456) |
 | 2025-01-14 | MiniMax-01 | [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) |
