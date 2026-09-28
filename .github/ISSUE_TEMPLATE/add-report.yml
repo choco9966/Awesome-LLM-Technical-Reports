@@ -1,0 +1,46 @@
+name: Add a report
+description: Propose one LLM technical report for the list (one report per issue).
+title: "[Add] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One report per issue. Blog posts, model cards, and slides alone are not accepted.
+  - type: input
+    id: report-name
+    attributes:
+      label: Report title
+      description: Exactly as it appears on arXiv (or on the official PDF).
+      placeholder: Qwen3 Technical Report
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: arXiv abs link preferred; otherwise an official paper PDF from the authors/organization.
+      placeholder: https://arxiv.org/abs/2505.09388
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - General-Purpose
+        - Reasoning-Centric
+        - Code
+        - Math & Science
+        - Language- & Region-Specific
+        - Small & On-Device
+        - Architecture Exploration
+        - Fully Open
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why add it?
+      placeholder: Key techniques, or which listed report it compares to.
+    validations:
+      required: true
