@@ -1,6 +1,6 @@
 # Awesome LLM Technical Reports [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Reports](https://img.shields.io/badge/reports-172-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Reports](https://img.shields.io/badge/reports-185-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🧩).
 
@@ -35,21 +35,21 @@ Each report is placed by **what its own abstract says it was designed for**, not
 ## Contents
 
 - [How Categories Are Assigned](#how-categories-are-assigned)
-- [General-Purpose LLMs](#general-purpose-llms) (69)
-  - [2025–2026](#20252026) (29)
-  - [2023–2024](#20232024) (29)
+- [General-Purpose LLMs](#general-purpose-llms) (78)
+  - [2025–2026](#20252026) (37)
+  - [2023–2024](#20232024) (30)
   - [2020–2022](#20202022) (11)
-- [Reasoning-Centric LLMs](#reasoning-centric-llms) (14)
+- [Reasoning-Centric LLMs](#reasoning-centric-llms) (15)
 - [Code LLMs](#code-llms) (18)
 - [Math & Science LLMs](#math--science-llms) (5)
-- [Language- & Region-Specific LLMs](#language---region-specific-llms) (32)
-  - [🇰🇷 Korean](#-korean) (11)
+- [Language- & Region-Specific LLMs](#language---region-specific-llms) (33)
+  - [🇰🇷 Korean](#-korean) (12)
   - [🇯🇵 Japanese](#-japanese) (1)
   - [🇪🇺 European](#-european) (5)
   - [🇨🇳 Chinese (early large-scale)](#-chinese-early-large-scale) (8)
   - [🌐 Multilingual](#-multilingual) (7)
 - [Small & On-Device LLMs](#small--on-device-llms) (12)
-- [Architecture Exploration](#architecture-exploration) (10)
+- [Architecture Exploration](#architecture-exploration) (12)
 - [Fully Open LLMs](#fully-open-llms) (11)
 - [Related: Training Methods](#related-training-methods) (1)
 - [Surveys](#surveys)
@@ -70,18 +70,25 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2026-07-02 | Gemma 4 🧩 | [Gemma 4 Technical Report](https://arxiv.org/abs/2607.02770) |
 | 2026-06-13 | Ling / Ring 2.6 | [Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale](https://arxiv.org/abs/2606.15079) |
 | 2026-05-26 | MiniMax-M2 Series | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence](https://arxiv.org/abs/2605.26494) |
+| 2026-04-27 | MiMo-V2.5-Pro 📝 | [Xiaomi MiMo-V2.5-Pro](https://mimo.xiaomi.com/mimo-v2-5-pro/) |
 | 2026-04-26 | DeepSeek-V4 | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/2606.19348) |
+| 2026-04-22 | MiMo-V2.5 🧩 📝 | [Xiaomi MiMo-V2.5](https://mimo.xiaomi.com/mimo-v2-5/) |
 | 2026-04-14 | Nemotron 3 Super | [Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning](https://arxiv.org/abs/2604.12374) |
+| 2026-04-02 | Qwen3.6-Plus 🧩 📝 | [Qwen3.6-Plus: Towards Real World Agents](https://qwen.ai/blog?id=qwen3.6) |
+| 2026-03-18 | MiMo-V2-Pro 📝 | [Xiaomi MiMo-V2-Pro](https://mimo.xiaomi.com/mimo-v2-pro) |
 | 2026-02-19 | Arcee Trinity Large | [Arcee Trinity Large Technical Report](https://arxiv.org/abs/2602.17004) |
 | 2026-02-17 | GLM-5 | [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) |
+| 2026-02-16 | Qwen3.5 🧩 📝 | [Qwen3.5: Towards Native Multimodal Agents](https://qwen.ai/blog?id=qwen3.5) |
 | 2026-02-11 | Step 3.5 Flash | [Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters](https://arxiv.org/abs/2602.10604) |
 | 2026-01-06 | MiMo-V2-Flash | [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) |
 | 2025-12-24 | NVIDIA Nemotron 3 | [NVIDIA Nemotron 3: Efficient and Open Intelligence](https://arxiv.org/abs/2512.20856) |
 | 2025-12-23 | Nemotron 3 Nano | [Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning](https://arxiv.org/abs/2512.20848) |
+| 2025-12-22 | GLM-4.7 📝 | [GLM-4.7: Advancing the Coding Capability](https://z.ai/blog/glm-4.7) |
 | 2025-12-02 | DeepSeek-V3.2 | [DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models](https://arxiv.org/abs/2512.02556) |
 | 2025-10-25 | Ling 2.0 | [Every Activation Boosted: Scaling General Reasoner to 1 Trillion Open Language Foundation](https://arxiv.org/abs/2510.22115) |
 | 2025-09-01 | LongCat-Flash | [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322) |
 | 2025-08-25 | Hermes 4 | [Hermes 4 Technical Report](https://arxiv.org/abs/2508.18255) |
+| 2025-08-21 | DeepSeek-V3.1 📝 | [DeepSeek-V3.1 Release](https://api-docs.deepseek.com/news/news250821/) |
 | 2025-08-08 | GLM-4.5 | [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) |
 | 2025-07-28 | Kimi K2 | [Kimi K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) |
 | 2025-07-24 | TeleChat2 / 2.5 / T1 | [Technical Report of TeleChat2, TeleChat2.5 and T1](https://arxiv.org/abs/2507.18013) |
@@ -89,6 +96,7 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2025-06-06 | dots.llm1 | [dots.llm1 Technical Report](https://arxiv.org/abs/2506.05767) |
 | 2025-05-14 | Qwen3 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
 | 2025-05-07 | Pangu Ultra MoE | [Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs](https://arxiv.org/abs/2505.04519) |
+| 2025-04-05 | Llama 4 🧩 📝 | [The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
 | 2025-04-01 | Command A | [Command A: An Enterprise-Ready Large Language Model](https://arxiv.org/abs/2504.00698) |
 | 2025-03-25 | Gemma 3 | [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) |
 | — | ERNIE 4.5 📄 | [ERNIE 4.5 Technical Report](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) |
@@ -118,6 +126,7 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 | 2024-01-08 | Mixtral | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
 | 2024-01-08 | TeleChat | [TeleChat Technical Report](https://arxiv.org/abs/2401.03804) |
 | 2024-01-05 | DeepSeek LLM | [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954) |
+| 2023-12-23 | SOLAR 10.7B | [SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling](https://arxiv.org/abs/2312.15166) |
 | 2023-11-28 | Falcon | [The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867) |
 | 2023-10-30 | Skywork | [Skywork: A More Open Bilingual Foundation Model](https://arxiv.org/abs/2310.19341) |
 | 2023-10-10 | Mistral 7B | [Mistral 7B](https://arxiv.org/abs/2310.06825) |
@@ -163,6 +172,7 @@ Reports whose main contribution is reasoning post-training (long CoT, RL with ve
 | 2025-05-02 | Llama-Nemotron | [Llama-Nemotron: Efficient Reasoning Models](https://arxiv.org/abs/2505.00949) |
 | 2025-04-30 | Phi-4-reasoning | [Phi-4-reasoning Technical Report](https://arxiv.org/abs/2504.21318) |
 | 2025-04-10 | Seed1.5-Thinking | [Seed1.5-Thinking: Advancing Superb Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2504.13914) |
+| 2025-03-06 | QwQ-32B 📝 | [QwQ-32B: Embracing the Power of Reinforcement Learning](https://qwenlm.github.io/blog/qwq-32b/) |
 | 2025-01-22 | DeepSeek-R1 | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
 
 ## Code LLMs
@@ -219,6 +229,7 @@ Models whose report centers on a specific language, region, or multilingual cove
 | 2026-01-05 | K-EXAONE | [K-EXAONE Technical Report](https://arxiv.org/abs/2601.01739) |
 | 2025-11-07 | Motif 2 12.7B | [Motif 2 12.7B technical report](https://arxiv.org/abs/2511.07464) |
 | 2025-10-10 | KORMo 🔓 | [KORMo: Korean Open Reasoning Model for Everyone](https://arxiv.org/abs/2510.09426) |
+| 2025-08-02 | Motif 2.6B | [Motif 2.6B Technical Report](https://arxiv.org/abs/2508.09148) |
 | 2025-07-15 | EXAONE 4.0 | [EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and Reasoning Modes](https://arxiv.org/abs/2507.11407) |
 | 2021-09-10 | HyperCLOVA | [What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers](https://arxiv.org/abs/2109.04650) |
 
@@ -292,12 +303,14 @@ Reports whose main contribution is an alternative architecture: hybrid SSM, line
 | 2026-02-26 | Ruyi2 | [Ruyi2 Technical Report](https://arxiv.org/abs/2602.22543) |
 | 2025-10-30 | Kimi Linear | [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/abs/2510.26692) |
 | 2025-10-22 | Ring-linear | [Every Attention Matters: An Efficient Hybrid Architecture for Long-Context Reasoning](https://arxiv.org/abs/2510.19338) |
+| 2025-09-11 | Qwen3-Next 📝 | [Qwen3-Next: Towards Ultimate Training & Inference Efficiency](https://qwen.ai/blog?id=qwen3-next) |
 | 2025-07-30 | Falcon-H1 | [Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance](https://arxiv.org/abs/2507.22448) |
 | 2025-05-21 | Hunyuan-TurboS | [Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought](https://arxiv.org/abs/2505.15431) |
 | 2025-03-18 | RWKV-7 | [RWKV-7 "Goose" with Expressive Dynamic State Evolution](https://arxiv.org/abs/2503.14456) |
 | 2025-01-14 | MiniMax-01 | [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) |
 | 2024-08-22 | Jamba-1.5 | [Jamba-1.5: Hybrid Transformer-Mamba Models at Scale](https://arxiv.org/abs/2408.12570) |
 | 2024-03-28 | Jamba | [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) |
+| 2024-01-11 | DeepSeekMoE | [DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models](https://arxiv.org/abs/2401.06066) |
 
 ## Fully Open LLMs
 
