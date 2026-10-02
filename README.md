@@ -1,6 +1,6 @@
 # Awesome LLM Technical Reports [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Reports](https://img.shields.io/badge/reports-185-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Reports](https://img.shields.io/badge/reports-187-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🧩).
 
@@ -42,8 +42,8 @@ Each report is placed by **what its own abstract says it was designed for**, not
 - [Reasoning-Centric LLMs](#reasoning-centric-llms) (15)
 - [Code LLMs](#code-llms) (18)
 - [Math & Science LLMs](#math--science-llms) (5)
-- [Language- & Region-Specific LLMs](#language---region-specific-llms) (33)
-  - [🇰🇷 Korean](#-korean) (12)
+- [Language- & Region-Specific LLMs](#language---region-specific-llms) (35)
+  - [🇰🇷 Korean](#-korean) (14)
   - [🇯🇵 Japanese](#-japanese) (1)
   - [🇪🇺 European](#-european) (5)
   - [🇨🇳 Chinese (early large-scale)](#-chinese-early-large-scale) (8)
@@ -227,6 +227,8 @@ Models whose report centers on a specific language, region, or multilingual cove
 | 2026-01-14 | A.X K1 | [A.X K1 Technical Report](https://arxiv.org/abs/2601.09200) |
 | 2026-01-11 | Solar Open | [Solar Open Technical Report](https://arxiv.org/abs/2601.07022) |
 | 2026-01-05 | K-EXAONE | [K-EXAONE Technical Report](https://arxiv.org/abs/2601.01739) |
+| 2026-01-05 | HyperCLOVA X 8B Omni 🧩 | [HyperCLOVA X 8B Omni](https://arxiv.org/abs/2601.01792) |
+| 2026-01-03 | HyperCLOVA X 32B Think 🧩 | [HyperCLOVA X 32B Think](https://arxiv.org/abs/2601.03286) |
 | 2025-11-07 | Motif 2 12.7B | [Motif 2 12.7B technical report](https://arxiv.org/abs/2511.07464) |
 | 2025-10-10 | KORMo 🔓 | [KORMo: Korean Open Reasoning Model for Everyone](https://arxiv.org/abs/2510.09426) |
 | 2025-08-02 | Motif 2.6B | [Motif 2.6B Technical Report](https://arxiv.org/abs/2508.09148) |
