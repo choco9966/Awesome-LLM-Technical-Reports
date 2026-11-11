@@ -1,6 +1,6 @@
 # Awesome LLM Technical Reports [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Reports](https://img.shields.io/badge/reports-262-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Reports](https://img.shields.io/badge/reports-267-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🧩).
 
@@ -64,6 +64,10 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 
 | Date | Model | Report |
 | --- | --- | --- |
+| 2026-11-05 | Inkling 2 Small 🧩 📝 | [Introducing Inkling 2 Small](https://thinkingmachines.ai/news/inkling-2-small/) |
+| 2026-11-04 | Kimi K3.1 Pro 🧩 📝 | [Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence](https://www.kimi.ai/blog/kimi-k3-1-pro) |
+| 2026-11-02 | Mistral Large 4 🧩 📄 | [Mistral Large 4](https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf) |
+| 2026-10-28 | Nemotron 3.5 Super / Lightning | [Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI](https://arxiv.org/abs/2610.38095) |
 | 2026-09-23 | Hunyuan-A13B | [Hunyuan-A13B Technical Report](https://arxiv.org/abs/2609.27284) |
 | 2026-09-17 | DeepSeek-V4.1-Flash | [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](https://arxiv.org/abs/2609.19969) |
 | 2026-07-27 | Kimi K3 🧩 | [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) |
@@ -287,6 +291,7 @@ Models whose report centers on a specific language, region, or multilingual cove
 
 | Date | Model | Report |
 | --- | --- | --- |
+| 2026-10-22 | Kolibri | [Kolibri: A Sovereign European Model on the Pareto Frontier](https://arxiv.org/abs/2610.31945) |
 | 2026-02-05 | EuroLLM-22B | [EuroLLM-22B: Technical Report](https://arxiv.org/abs/2602.05879) |
 | 2026-01-06 | NorwAI | [NorwAI's Large Language Models: Technical Report](https://arxiv.org/abs/2601.03034) |
 | 2025-09-17 | Apertus 🔓 | [Apertus: Democratizing Open and Compliant LLMs for Global Language Environments](https://arxiv.org/abs/2509.14233) |
