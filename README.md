@@ -1,6 +1,6 @@
 # Awesome LLM Technical Reports [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Reports](https://img.shields.io/badge/reports-269-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Reports](https://img.shields.io/badge/reports-270-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🧩).
 
@@ -64,6 +64,7 @@ Foundation models trained for broad capability. Grouped by the first arXiv submi
 
 | Date | Model | Report |
 | --- | --- | --- |
+| 2026-11-16 | Beam 📄 | [Beam Model Technical Report](https://reflection.ai/documents/beam-model-tech-report) |
 | 2026-11-05 | Inkling 2 Small 🧩 📝 | [Introducing Inkling 2 Small](https://thinkingmachines.ai/news/inkling-2-small/) |
 | 2026-11-04 | Kimi K3.1 Pro 🧩 📝 | [Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence](https://www.kimi.ai/blog/kimi-k3-1-pro) |
 | 2026-11-02 | Mistral Large 4 🧩 📄 | [Mistral Large 4](https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf) |
