@@ -1,6 +1,6 @@
 # Awesome LLM Technical Reports [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Reports](https://img.shields.io/badge/reports-267-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Reports](https://img.shields.io/badge/reports-269-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 A curated list of **technical reports for large language models** — the documents where model builders describe architecture, data, pre-training, and post-training. The list focuses on **text LLMs**; reports of natively multimodal models are kept when the language model is the core of the report (marked 🧩).
 
@@ -179,6 +179,7 @@ Reports whose main contribution is reasoning post-training (long CoT, RL with ve
 
 | Date | Model | Report |
 | --- | --- | --- |
+| 2026-06-02 | MAI-Thinking-1 📄 | [MAI-Thinking-1: Building a Hill-Climbing Machine](https://microsoft.ai/pdf/mai-thinking-1.pdf) |
 | 2026-06-15 | VibeThinker-3B | [VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models](https://arxiv.org/abs/2606.16140) |
 | 2026-01-23 | LongCat-Flash-Thinking-2601 | [LongCat-Flash-Thinking-2601 Technical Report](https://arxiv.org/abs/2601.16725) |
 | 2025-11-09 | VibeThinker-1.5B | [Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model Reasoning Ability in VibeThinker-1.5B](https://arxiv.org/abs/2511.06221) |
@@ -399,6 +400,7 @@ Models released together with training data, code, and intermediate checkpoints.
 
 | Date | Model | Report |
 | --- | --- | --- |
+| 2026-11-16 | K2-Horizon | [K2-Horizon: A Frontier Fleet of Open Source Language Models](https://arxiv.org/abs/2611.21003) |
 | 2026-08-21 | Marin 535B-A23B 📝 | [Marin 535B-A23B started training (live, open training run)](https://x.com/percyliang/status/2090918065634684997) |
 | 2025-12-15 | Olmo 3 | [Olmo 3](https://arxiv.org/abs/2512.13961) |
 | 2025-12 | Marin 32B 📝 | [Marin 32B Retrospective](https://github.com/marin-community/marin/blob/main/docs/reports/marin-32b-retro.md) |
